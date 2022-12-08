@@ -1,0 +1,115 @@
+
+.form{
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+
+    
+    
+}
+
+.form label, input, textarea, button{
+    display: block;
+    width: 100%;
+    
+
+}
+
+
+
+.form label {
+    
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input, textarea{
+    
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color;
+    box-shadow:  0.2s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+
+}
+
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline:none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+
+.form button{
+    display: block;
+    padding: 1.1rem;
+    background: #2A7AE4 ;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:focus{
+    outline: none;
+    background: #7d96b6 ;
+}
+
+
+
+.contato__form{
+    display: flex;
+}
+
+.contato__dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos__comunicate{
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+@media (max-width: 775px){
+    .form{
+        padding-left: 16px;
+        padding-right: 16px;
+        height: 300px;
+        width: 362px; 
+        padding-bottom: 250px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contato__form{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form input{
+        width: 90%;
+    }
+    .form textarea{
+        width: 90%;
+    }
+    .form button{
+        width: 85%;
+        margin-left: 22px;
+    }
+}

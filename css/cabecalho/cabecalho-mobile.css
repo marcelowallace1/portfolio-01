@@ -1,0 +1,40 @@
+.mobile__icon{
+    display: none;
+}
+
+.mobile__menu{
+    display: none;
+    font-weight: 500;
+
+}
+.mobile__menu ul{
+    font-size: 1rem;
+    color: #464646;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media screen and (max-width: 767px){
+    .mobile__icon{
+        display: block;
+    }
+
+    .mobile__icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .mobile__menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        
+    }
+
+    .open{
+        display: block;
+    }
+}

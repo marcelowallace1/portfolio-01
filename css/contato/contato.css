@@ -1,0 +1,25 @@
+.contato{
+    display: flex;
+    justify-content: center;
+     gap: 16px;
+     background: #abacfa ;
+    padding-top: 110px;
+    padding-bottom: 64px;
+}
+
+#tel{
+    max-width: 750px;
+}
+
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+    .contato{
+        flex-direction: column ;
+        padding-top: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    #tel{
+        display: none;
+    }
+}

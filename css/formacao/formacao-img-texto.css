@@ -1,0 +1,14 @@
+.formacao__img-descricao{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+    .formacao__img-descricao{
+        text-align: center;
+        font-size: 0.875rem;
+        padding-bottom: 16px;
+    }
+}

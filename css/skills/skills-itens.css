@@ -1,0 +1,18 @@
+.skills__itens{
+    display: flex;
+}
+
+.skills__itens li:hover{
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 0px ) and (max-width: 767px){
+    .skills__itens{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+}

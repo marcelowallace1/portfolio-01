@@ -1,0 +1,32 @@
+.skills__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
+    padding-top: 32px;
+    margin-bottom: 12px;
+}
+.skills__texto{
+    font-weight: 500;
+    color: #464646;
+    margin-bottom: 16px;
+    
+}
+@media screen and (min-width: 0px ) and (max-width: 767px){
+
+    .skills__titulo{
+        font-size: 1.375rem;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        
+    }
+
+}
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+
+        .skills__titulo{
+            font-size: 1.375rem;
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+}

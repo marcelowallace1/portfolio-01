@@ -1,0 +1,25 @@
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 88px;
+    padding-top: 88px;
+    
+}
+
+
+
+@media screen and (min-width: 0px ) and (max-width: 767px){
+
+    .skills{
+        padding-bottom: 16px;
+    }
+
+}
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+
+    .skills{
+         padding-bottom: 32px;
+    }
+}

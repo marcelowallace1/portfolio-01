@@ -1,0 +1,27 @@
+.formacao{
+    background: #abacfa;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 82px;
+    
+}
+
+.formacao li img{
+    border-radius: 16px;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 767px){
+
+    .formacao{
+        align-items: center;
+        padding-bottom: 16px;
+    }
+}
+
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+    .formacao{
+        align-items: center;
+        padding-bottom: 32px;
+    }
+}

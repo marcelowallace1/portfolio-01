@@ -1,0 +1,18 @@
+.projetos__titulo{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #464646;
+    margin-bottom: 22px;
+    padding-top: 108px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 767px){
+    .projetos__titulo{
+        text-align: center;
+        font-size: 1.375rem;
+    }
+
+}

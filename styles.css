@@ -1,0 +1,42 @@
+
+
+
+.container{
+    margin-left: 152px;
+    margin-right: 152px;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.skills img, .projetos img, .contatos, .formacao img{
+    visibility: hidden;
+}
+
+
+
+@media screen and (min-width: 0px ) and (max-width: 767px){
+    .container{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+
+
+@media screen  and (max-width: 1090px){
+
+    .container{
+        margin-left: 32px;
+        margin-right: 32px;
+
+    }
+
+}

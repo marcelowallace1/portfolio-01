@@ -1,0 +1,13 @@
+.formacao__itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px ) and (max-width: 1075px){
+
+    .formacao__itens{
+        flex-direction: column ;
+        align-items: center;
+    }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reset.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- cabecalho -->
+    <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-item.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-mobile.css">
+
+    <!-- banner -->
+    <link rel="stylesheet" href="css/banner/banner-bloco.css">
+    <link rel="stylesheet" href="css/banner/banner-itens.css">
+    <link rel="stylesheet" href="css/banner/banner-texto.css">
+    <link rel="stylesheet" href="css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="css/banner/banner.css">
+    <link rel="stylesheet" href="css/banner/banner-img.css">
+
+    <!-- sobre -->
+    <link rel="stylesheet" href="css/sobre/sobre-texto.css">
+    <link rel="stylesheet" href="css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="css/sobre/sobre.css">
+
+    <!-- skills -->
+    <link rel="stylesheet" href="css/skills/skills-itens.css">
+    <link rel="stylesheet" href="css/skills/skills-titulo.css">
+    <link rel="stylesheet" href="css/skills/skills.css">
+
+    <!-- formacao -->
+    <link rel="stylesheet" href="css/formacao/formacao-img.css">
+    <link rel="stylesheet" href="css/formacao/formacao-titulo.css">
+    <link rel="stylesheet" href="css/formacao/formacao.css">
+    <link rel="stylesheet" href="css/formacao/formacao-itens.css">
+    <link rel="stylesheet" href="css/formacao/formacao-img-texto.css">
+    <link rel="stylesheet" href="css/formacao/formacao-img-titulo.css">
+
+    <!-- projetos -->
+    <link rel="stylesheet" href="css/projetos/projetos-descricao.css">
+    <link rel="stylesheet" href="css/projetos/projetos-link.css">
+    <link rel="stylesheet" href="css/projetos//projetos-nome.css">
+    <link rel="stylesheet" href="css/projetos/projetos-titulo.css">
+    <link rel="stylesheet" href="css/projetos/projetos.css">
+    <link rel="stylesheet" href="css/projetos/projetos-projetos.css">
+
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/contato/contato.css">
+    <link rel="stylesheet" href="css/contato/contato-descricao.css">
+    <link rel="stylesheet" href="css/contato/contato-titulo.css">
+
+    <link rel="stylesheet" href="css/rodape/rodape.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Marcelo Wallace | Portfolio</title>
+</head>
+
+<body>
+    <header id="header" class="">
+        <nav  class="cabecalho container">
+            <div class="cabecalho__logo">
+                <a href="#">Marcelo Wallace</a>
+            </div>
+
+            <div id="cabecalho__mobile" class="cabecalho__menu">
+                <ul>
+                    <li><a class="cabecalho__item" href="#">Sobre mim</a></li>
+                    <li><a class="cabecalho__item" href="#skills">Skills</a></li>
+                    <!-- <li><a class="cabecalho__item" href="">Hobbie</a></li> -->
+                    <li><a class="cabecalho__item" href="#formacao">Formação</a></li>
+                    <li><a class="cabecalho__item" href="#projetos">Projetos</a></li>
+                    <li><a class="cabecalho__item" href="#contatos">Contato</a></li>
+                </ul>
+            </div>
+            <!-- mobile -->
+            <div class="mobile__icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="assets/icons/menu.svg" alt="">
+                </button>
+            </div>
+        </nav>
+        <div class="mobile__menu">
+            <ul>
+                <li><a class="cabecalho__item" href="#">Sobre mim</a></li>
+                <li><a class="cabecalho__item" href="#skills">Skills</a></li>
+                <li><a class="cabecalho__item" href="#formacao">Formação</a></li>
+                <li><a class="cabecalho__item" href="#projetos">Projetos</a></li>
+                <li><a class="cabecalho__item" href="#contatos">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner container">
+        <div class="banner__img1"></div>    
+        <div class="banner_bloco">
+            <h1 class="banner__titulo">Olá, meu nome é Marcelo Wallace,<br> Desenvolvedor Web
+                <p class="banner__texto">
+                    5° Periodo em análise e desenvolvimento<br> de sistemas Atualmente
+                    estou participando do projeto Oracle One na Alura.
+                </p>
+                <ul class="banner__itens">
+                    <li><a href="" class="banner__item">Github <img src="/assets/icons/arrow.svg"
+                                alt="icone Github"></a>
+                    </li>
+                    <li><a href="" class="banner__item">Linkedin <img src="/assets/icons/arrow.svg"
+                                alt="icone Linkedin"></a></li>
+                    <li><a href="" class="banner__item">Instagram <img src="/assets/icons/arrow.svg"
+                                alt="icone Instagram"></a></li>
+                    <li><a href="" class="banner__item">Currículo <img src="/assets/icons/arrow.svg"
+                                alt="icone Curriculo"></a></li>
+                </ul>
+        </div>
+        <div class="banner__img"></div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h1 class="sobre__titulo  container">Sobre mim</h1>
+        <p class="sobre__texto  container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
+            velit,<br>
+            volutpat semper
+            dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.<br> Suspendisse potenti. Ut
+            semper sagittis ligula et lacinia. </p>
+        <p class="sobre__texto  container">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit
+            velit,<br>
+            volutpat semper
+            dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. <br>Suspendisse potenti. Ut
+            semper sagittis ligula et lacinia. dignissim dictum, imperdiet ut lacus.<br> dignissim dictum, imperdiet ut
+            lacus.
+
+    </section>
+
+    <section id="skills" class="skills container">
+        <h1 class="skills__titulo">Hard Skills</h1>
+        <p class="skills__texto">Conheça as tecnlogias que domino</p>
+        <ul class="skills__itens">
+
+            <li><a href=""> <img src="assets/icons/tecnologias/java.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/javascript.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/typescript.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/react.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/html.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/css.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/icons/tecnologias/php.svg" alt=""></a></li>
+
+        </ul>
+    </section>
+
+    <section class="hobbies">
+        <h1 class="hobbies__titulo"></h1>
+        <ul class="hobbies__itens">
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </section>
+    <h1 id="formacao" class="formacao__titulo"> Formação acadêmica e cursos</h1>
+    <section class="formacao">
+
+        <ul class="formacao__itens container">
+            <li>
+                <a class="formacao__img" href="">
+                    <img src="assets/cursos/senac1.png" alt="">
+                    <h1 class="formacao__img-titulo">2022 | tecnólogo em análise e <br>desenvolvimento de sistemas</h1>
+                    <p class="formacao__img-descricao">em andamento - Senac</p>
+                </a>
+            </li>
+            <li>
+                <a class="formacao__img" href="">
+                    <img src="assets/cursos/one1.png" alt="">
+                    <h1 class="formacao__img-titulo">Programa ONE br</h1>
+                    <p class="formacao__img-descricao"> 2022 | Em andamento - Alura & Oracle</p>
+                </a>
+            </li>
+            <li>
+                <a class="formacao__img" href="">
+                    <img src="assets/cursos/vtex1.png" alt="">
+                    <h1 class="formacao__img-titulo">Hiring coders</h1>
+                    <p class="formacao__img-descricao">2022 - VTEX & Gama academy</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <h1 id="projetos" class="projetos__titulo">Experiência profissional | Projetos</h1>
+    <section class="projetos container">
+
+        <img src="assets/projetos/todoList.png" alt="">
+
+        <div class="projetos__projetos">
+            <h1 class="projetos__nome">
+                ToDo List - React Native
+            </h1>
+            <p class="projetos__descricao">
+                Desafio Rocketseat App android.
+            </p>
+            <a href="https://github.com/marcelowallace1/ToDo-List-React-Native"  target="_blank"  class="projetos__link--rep">
+                Repositório
+            </a>
+            <a href="#" class="projetos__link--demo">
+                Ver demo
+            </a>
+        </div>
+
+    </section>
+    <section class="projetos container">
+        <img src="assets/projetos/alurinha.png" alt="AluraGeek">
+
+        <div class="projetos__projetos">
+            <h1 class="projetos__nome"> E-commerce AluraGeek</h1>
+            <p class="projetos__descricao">Challenge One - Front-end</p>
+            <a href="https://github.com/marcelowallace1/E-commerce-aluraGeek-desafio-" target="_blank" class="projetos__link--rep">
+                Repositório
+            </a>
+            <a href="https://marcelowallace1.github.io/E-commerce-aluraGeek-desafio-/"  target="_blank" class="projetos__link--demo">
+                Ver demo
+            </a>
+        </div>
+    </section>
+
+    <section class="projetos container">
+        <img src="assets/projetos/Salao.png" alt="">
+
+        <div class="projetos__projetos">
+            <h1 class="projetos__nome">
+                Salão de beleza - layout
+            </h1>
+            <p class="projetos__descricao">
+                NLW - Salão de beleza
+            </p>
+            <a href="https://github.com/marcelowallace1/Salao-de-beleza" target="_blank"  class="projetos__link--rep">
+                Repositório
+            </a>
+            <a href="https://marcelowallace1.github.io/Salao-de-beleza/" target="_blank"  class="projetos__link--demo">
+                ver demo
+            </a>
+        </div>
+    </section>
+
+    <section id="contatos" class="contato">
+
+        <img id="tel" src="assets/tel.png" alt="">
+        <div class="div__form">
+            <h1 class="contato__titulo container">
+                Contato
+            </h1>
+            <p class="contato__descricao container">
+                Quer entrar em contato comigo?<br>
+                Preencha o formulário e entrarei em contato o mais rápido possível.
+            </p>
+            <form class="form" action="https://formsubmit.co/marcelo.wconceicao@senacsp.edu.br" method="POST">
+                <label for="name">Nome</label>
+                      <input type="text" name="name" required />
+                <label for="email">E-mail</label>
+                      <input type="email" name="email" required />
+                <label for="message">Mensagem</label>
+                <textarea name="message" required></textarea>
+                      <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="rodape">
+        <h1>Desenvolvido por Marcelo Wallace </h1>
+        <h1>2022</h1>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js">
+        
+
+    </script>
+    
+</body>
+
+
+</html>
