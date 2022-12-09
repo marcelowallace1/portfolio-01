@@ -14,7 +14,7 @@
 }
 .banner__img1{
     display: none;
-    background: url(../../photos/photo.jpg);
+    background: url(/assets/photos/photo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
