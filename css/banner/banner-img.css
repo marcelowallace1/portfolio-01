@@ -1,9 +1,9 @@
 .banner__img{
-    background: url(../../../photos/photo.jpg);
+    background: url(../../photos/photo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
+    
     height: 368px;
     width: 368px;
     border-radius: 50%;
@@ -14,7 +14,7 @@
 }
 .banner__img1{
     display: none;
-    background: url(../../../photo.jpg);
+    background: url(../../photos/photo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
